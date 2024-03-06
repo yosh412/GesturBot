@@ -1,0 +1,1 @@
+This folder contains the files and pictues you need for building the GesturBot
