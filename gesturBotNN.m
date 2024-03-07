@@ -57,7 +57,7 @@ while toc(startTime) <= maxExecutionTime
     currentProximityLeftSensor = readProximity(irSensorLeft);
     currentProximityRightSensor = readProximity(irSensorRight);
 
-    if currentProximityRightSensor < 35 || currentProximityLeftSensor < 35
+    if currentProximityRightSensor < 30 || currentProximityLeftSensor < 30
          % Max distance is 75
             if currentProximityRightSensor > 75
                 currentProximityRightSensor = 75;

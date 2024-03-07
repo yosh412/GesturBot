@@ -36,7 +36,7 @@ disp(strcat('Sample Number: ', char(num2str(mod(x, amountTrainData/4)))));
         currentProximityLeftSensor = readProximity(irSensorLeft);
         currentProximityRightSensor = readProximity(irSensorRight);
     
-        if currentProximityRightSensor < 28 || currentProximityLeftSensor < 28
+        if currentProximityRightSensor < 30 || currentProximityLeftSensor < 30
              % Max distance is 75
                 if currentProximityRightSensor > 75
                     currentProximityRightSensor = 75;
